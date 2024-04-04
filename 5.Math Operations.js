@@ -1,16 +1,18 @@
 function mathOperations(num1, num2, str) {
+    let result = 0
 if (str === `+`){
-console.log(num1+num2);
+result =(num1+num2);
 }else if(str===`-`){
-    console.log(num1=num2);
+    result=(num1-num2);
 }else if(str===`*`){
-    console.log(num1/num2);
+    result=(num1*num2);
 }else if(str === `/`){
-    console.log((num1/num2));
+    result=((num1/num2));
 }else if(str===`**`){
-    console.log(num1**num2);
+    result=(Math.pow(num1,num2));
+}else if (str === `%`){
+    result=num1%num2
 }
-
-    console.log();
+console.log(result);
 }
-mathOperations(5, 6, '**');
+mathOperations(5, 6, '%');
