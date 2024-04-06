@@ -15,4 +15,4 @@ result =(num1+num2);
 }
 console.log(result);
 }
-mathOperations(5, 6, '%');
+mathOperations(5, 6, '*');
